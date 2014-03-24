@@ -1,3 +1,3 @@
 Preparing to demo this and other speech experiments at the [2014 jQuery conference](http://events.jquery.org/2014/san-diego/) in San Diego.  
 
-[conference slides](http://slid.es/jdimm/fun-with-speech)
+The [conference slides](http://slid.es/jdimm/fun-with-speech) show how each component module works on its own. They present the reasoning that motivated the app, the "pain" it tries to address, the role it could play in a future of omnipresent computing power and display.  
