@@ -1,5 +1,3 @@
-Insert a description to describe your update to document your creative process. The Commissioned Interactive Artists will be doing the same so you can reference their Project Posts.
+Preparing to demo this and other speech experiments at the [2014 jQuery conference](http://events.jquery.org/2014/san-diego/) in San Diego.  
 
-![Example Image](../project_images/cover.jpg?raw=true "Example Image")
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+[conference slides](http://slid.es/jdimm/fun-with-speech)
