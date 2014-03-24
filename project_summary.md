@@ -15,7 +15,8 @@ TalkShow shows pictures of the things you talk about.  It listens as you talk, c
 
 ## Example Code
 
-<pre>
+
+```
   [from speech.js]
   // The final transcript has the words that we're sure about.
   // The interim transcript has a hypothesis that may change.
@@ -27,7 +28,8 @@ TalkShow shows pictures of the things you talk about.  It listens as you talk, c
       interim_transcript += event.results[i][0].transcript;
     }
   }
-</pre>
+```
+
 
 ## Links to External Libraries
 
