@@ -7,7 +7,7 @@ story illustrator
 
 
 ## Description
-TalkShow eavesdrops on conversations, converting overheard speech to text, and using the text to search for relevant images on the internet. The gallery installation would have an open microphone on a stand in front of a video wall consisting of four large flat screen televisions.
+TalkShow shows pictures of the things you talk about.  It listens as you talk, converting your speech to text, and using the text to search for relevant images on the internet. The gallery installation would have an open microphone on a stand in front of a video wall consisting of four large flat screen televisions.
 
 ## Link to Prototype
 
