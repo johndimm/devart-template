@@ -1,33 +1,46 @@
-# Project Title
-Insert the name of your project
+# TalkShow
+
+story illustrator
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+- John Dimm, [johndimm](https://github.com/johndimm)
+
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+TalkShow eavesdrops on conversations, converting overheard speech to text, and using the text to search for relevant images on the internet. The gallery installation would have an open microphone on a stand in front of a video wall consisting of four large flat screen televisions.
 
 ## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
 
-[Example Link](http://www.google.com "Example Link")
+[TalkShow](https://dprhcp108.doteasy.com/~johndimm/TalkShow/)
 
 ## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
 
-[Example Link](http://www.google.com "Example Link")
+<pre>
+  [from speech.js]
+  // The final transcript has the words that we're sure about.
+  // The interim transcript has a hypothesis that may change.
+  var interim_transcript = '';  
+  for (var i = event.resultIndex; i < event.results.length; ++i) {
+    if (event.results[i].isFinal) {
+      g_finalTranscript += event.results[i][0].transcript;
+    } else {
+      interim_transcript += event.results[i][0].transcript;
+    }
+  }
+</pre>
+
+## Links to External Libraries
+
+- [Web Speech API](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html) for speech recognition
+- [flickr api](http://www.flickr.com/services/api/) for image search
+- [bing search api](http://datamarket.azure.com/dataset/bing/search) for image search
+- [alchemy api](http://www.alchemyapi.com/api/entity/langs.html) for named entity recognition
+
+
 
 ## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+[YouTube video demo in French](https://www.youtube.com/watch?v=j0BDSlrP63Q)
+
+
