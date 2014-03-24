@@ -1,15 +1,17 @@
 {
     "technologies": {
         "apis": [
-            "web speech api",
-            "alchemy api",
-            "bing search api",
-            "flickr api"
+            "web speech",
+            "alchemy",
+            "bing search",
+            "flickr"
         ],
         "platforms": [
-            "google chrome"
+            "google chrome browser"
         ],
-        "toolkits": []
+        "toolkits": [
+			"jquery"
+		]
     },
     "themes": [
         "ambient computing",
